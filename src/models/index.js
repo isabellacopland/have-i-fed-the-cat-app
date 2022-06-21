@@ -2,7 +2,7 @@ const CatModel = require('./cat');
 const Sequelize = require('sequelize');
 
 const setUpDatabase = () => {
-    const connection = new Sequelize("have_i_fed_the_cat_app", "root", "password", {
+    const connection = new Sequelize("have_i_fed_the_cat_app_db", "root", "password", {
         host: "localhost",
         port: 3307,
         dialect: "mysql"
